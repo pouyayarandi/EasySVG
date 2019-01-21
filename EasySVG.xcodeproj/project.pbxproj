@@ -10,6 +10,7 @@
 		92116CE221F5C4CB0050C84E /* EasySVG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92116CD821F5C4CB0050C84E /* EasySVG.framework */; };
 		92116CE721F5C4CB0050C84E /* EasySVGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92116CE621F5C4CB0050C84E /* EasySVGTests.swift */; };
 		92116CE921F5C4CB0050C84E /* EasySVG.h in Headers */ = {isa = PBXBuildFile; fileRef = 92116CDB21F5C4CB0050C84E /* EasySVG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92116CF321F5C4DB0050C84E /* EasySVG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92116CF221F5C4DB0050C84E /* EasySVG.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		92116CE121F5C4CB0050C84E /* EasySVGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasySVGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92116CE621F5C4CB0050C84E /* EasySVGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasySVGTests.swift; sourceTree = "<group>"; };
 		92116CE821F5C4CB0050C84E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92116CF221F5C4DB0050C84E /* EasySVG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasySVG.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				92116CDB21F5C4CB0050C84E /* EasySVG.h */,
 				92116CDC21F5C4CB0050C84E /* Info.plist */,
+				92116CF221F5C4DB0050C84E /* EasySVG.swift */,
 			);
 			path = EasySVG;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					92116CD721F5C4CB0050C84E = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					92116CE021F5C4CB0050C84E = {
 						CreatedOnToolsVersion = 10.1;
@@ -194,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92116CF321F5C4DB0050C84E /* EasySVG.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +346,7 @@
 		92116CED21F5C4CB0050C84E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -358,6 +364,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pouyayarandi.EasySVG;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,6 +373,7 @@
 		92116CEE21F5C4CB0050C84E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -391,6 +399,7 @@
 		92116CF021F5C4CB0050C84E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z5GH44G8KH;
 				INFOPLIST_FILE = EasySVGTests/Info.plist;
@@ -409,6 +418,7 @@
 		92116CF121F5C4CB0050C84E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z5GH44G8KH;
 				INFOPLIST_FILE = EasySVGTests/Info.plist;
