@@ -1,6 +1,15 @@
 # EasySVG
 **EasySVG** is a framework written in swift for loading vector assets in `UIImageView`. this framework uses `WebKit`'s `WKWebView` for loading vectors.
 
+## Add to project
+**cocoapods**: add this line to your Podfile:
+```ruby
+pod 'EasySVG'
+```
+and then run `pod install`
+
+**manually**: also you can add this framework to your project by downloading the source.
+
 ## How to use
 it's really simple. just add vector file to your project with drag and drop. then add the following code for your `UIImageView` in `ViewController`
 ```swift
@@ -13,7 +22,7 @@ you can call `setSVG()` method with other arguments:
 * with url of vector file:
 ```swift
 if let url = Bundle.main.url(forResource: "like", withExtension: "svg") {
-	imageView.setSVG(url)
+    imageView.setSVG(url)
 }
 ```
 * with an optional overlay color:
@@ -37,6 +46,9 @@ add `EasyImageView` and `EasySVG` as class and module of your `UIImageView`
 
 then set `EasyImageView` attributes in the attribute inspector tab
 ![attribute inspector tab](http://uupload.ir/files/cpag_screen_shot_2019-01-21_at_2.14.21_pm.png)
+
+## Support us
+support us with click on star icon. thanks ❤️
 
 ## License
 MIT
