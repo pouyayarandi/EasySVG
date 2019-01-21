@@ -1,6 +1,8 @@
 # EasySVG
 **EasySVG** is a framework written in swift for loading vector assets in `UIImageView`. this framework uses `WebKit`'s `WKWebView` for loading vectors.
 
+<img src="http://uupload.ir/files/ozxm_simulator_screen_shot_-_iphone_8_-_2019-01-21_at_18.31.00.png" width="350">
+
 ## Add to project
 **cocoapods**: add this line to your Podfile:
 ```ruby
