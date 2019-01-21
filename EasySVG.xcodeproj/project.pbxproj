@@ -11,6 +11,19 @@
 		92116CE721F5C4CB0050C84E /* EasySVGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92116CE621F5C4CB0050C84E /* EasySVGTests.swift */; };
 		92116CE921F5C4CB0050C84E /* EasySVG.h in Headers */ = {isa = PBXBuildFile; fileRef = 92116CDB21F5C4CB0050C84E /* EasySVG.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		92116CF321F5C4DB0050C84E /* EasySVG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92116CF221F5C4DB0050C84E /* EasySVG.swift */; };
+		92116CFB21F5CE1F0050C84E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92116CFA21F5CE1F0050C84E /* AppDelegate.swift */; };
+		92116CFD21F5CE1F0050C84E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92116CFC21F5CE1F0050C84E /* ViewController.swift */; };
+		92116D0021F5CE1F0050C84E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92116CFE21F5CE1F0050C84E /* Main.storyboard */; };
+		92116D0221F5CE200050C84E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92116D0121F5CE200050C84E /* Assets.xcassets */; };
+		92116D0521F5CE200050C84E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92116D0321F5CE200050C84E /* LaunchScreen.storyboard */; };
+		92116D1021F5CE200050C84E /* EasySVGExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92116D0F21F5CE200050C84E /* EasySVGExampleTests.swift */; };
+		92116D1B21F5CE200050C84E /* EasySVGExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92116D1A21F5CE200050C84E /* EasySVGExampleUITests.swift */; };
+		92116D2621F5D04A0050C84E /* EasySVG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92116CD821F5C4CB0050C84E /* EasySVG.framework */; };
+		92116D2721F5D04A0050C84E /* EasySVG.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 92116CD821F5C4CB0050C84E /* EasySVG.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		92116D2F21F5D0920050C84E /* like.svg in Resources */ = {isa = PBXBuildFile; fileRef = 92116D2B21F5D0920050C84E /* like.svg */; };
+		92116D3021F5D0920050C84E /* female.svg in Resources */ = {isa = PBXBuildFile; fileRef = 92116D2C21F5D0920050C84E /* female.svg */; };
+		92116D3121F5D0920050C84E /* crown.svg in Resources */ = {isa = PBXBuildFile; fileRef = 92116D2D21F5D0920050C84E /* crown.svg */; };
+		92116D3221F5D0920050C84E /* message.svg in Resources */ = {isa = PBXBuildFile; fileRef = 92116D2E21F5D0920050C84E /* message.svg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,7 +34,42 @@
 			remoteGlobalIDString = 92116CD721F5C4CB0050C84E;
 			remoteInfo = EasySVG;
 		};
+		92116D0C21F5CE200050C84E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92116CCF21F5C4CB0050C84E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92116CF721F5CE1F0050C84E;
+			remoteInfo = EasySVGExample;
+		};
+		92116D1721F5CE200050C84E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92116CCF21F5C4CB0050C84E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92116CF721F5CE1F0050C84E;
+			remoteInfo = EasySVGExample;
+		};
+		92116D2821F5D04A0050C84E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92116CCF21F5C4CB0050C84E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92116CD721F5C4CB0050C84E;
+			remoteInfo = EasySVG;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		92116D2A21F5D04A0050C84E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				92116D2721F5D04A0050C84E /* EasySVG.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		92116CD821F5C4CB0050C84E /* EasySVG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasySVG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -31,6 +79,23 @@
 		92116CE621F5C4CB0050C84E /* EasySVGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasySVGTests.swift; sourceTree = "<group>"; };
 		92116CE821F5C4CB0050C84E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92116CF221F5C4DB0050C84E /* EasySVG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasySVG.swift; sourceTree = "<group>"; };
+		92116CF821F5CE1F0050C84E /* EasySVGExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasySVGExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92116CFA21F5CE1F0050C84E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92116CFC21F5CE1F0050C84E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92116CFF21F5CE1F0050C84E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92116D0121F5CE200050C84E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92116D0421F5CE200050C84E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92116D0621F5CE200050C84E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92116D0B21F5CE200050C84E /* EasySVGExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasySVGExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92116D0F21F5CE200050C84E /* EasySVGExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasySVGExampleTests.swift; sourceTree = "<group>"; };
+		92116D1121F5CE200050C84E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92116D1621F5CE200050C84E /* EasySVGExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasySVGExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92116D1A21F5CE200050C84E /* EasySVGExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasySVGExampleUITests.swift; sourceTree = "<group>"; };
+		92116D1C21F5CE200050C84E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92116D2B21F5D0920050C84E /* like.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = like.svg; sourceTree = "<group>"; };
+		92116D2C21F5D0920050C84E /* female.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = female.svg; sourceTree = "<group>"; };
+		92116D2D21F5D0920050C84E /* crown.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = crown.svg; sourceTree = "<group>"; };
+		92116D2E21F5D0920050C84E /* message.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = message.svg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +114,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		92116CF521F5CE1F0050C84E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92116D2621F5D04A0050C84E /* EasySVG.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92116D0821F5CE200050C84E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92116D1321F5CE200050C84E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -57,6 +144,9 @@
 			children = (
 				92116CDA21F5C4CB0050C84E /* EasySVG */,
 				92116CE521F5C4CB0050C84E /* EasySVGTests */,
+				92116CF921F5CE1F0050C84E /* EasySVGExample */,
+				92116D0E21F5CE200050C84E /* EasySVGExampleTests */,
+				92116D1921F5CE200050C84E /* EasySVGExampleUITests */,
 				92116CD921F5C4CB0050C84E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,6 +156,9 @@
 			children = (
 				92116CD821F5C4CB0050C84E /* EasySVG.framework */,
 				92116CE121F5C4CB0050C84E /* EasySVGTests.xctest */,
+				92116CF821F5CE1F0050C84E /* EasySVGExample.app */,
+				92116D0B21F5CE200050C84E /* EasySVGExampleTests.xctest */,
+				92116D1621F5CE200050C84E /* EasySVGExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,6 +180,49 @@
 				92116CE821F5C4CB0050C84E /* Info.plist */,
 			);
 			path = EasySVGTests;
+			sourceTree = "<group>";
+		};
+		92116CF921F5CE1F0050C84E /* EasySVGExample */ = {
+			isa = PBXGroup;
+			children = (
+				92116D3321F5D0990050C84E /* Vectors */,
+				92116CFA21F5CE1F0050C84E /* AppDelegate.swift */,
+				92116CFC21F5CE1F0050C84E /* ViewController.swift */,
+				92116CFE21F5CE1F0050C84E /* Main.storyboard */,
+				92116D0121F5CE200050C84E /* Assets.xcassets */,
+				92116D0321F5CE200050C84E /* LaunchScreen.storyboard */,
+				92116D0621F5CE200050C84E /* Info.plist */,
+			);
+			path = EasySVGExample;
+			sourceTree = "<group>";
+		};
+		92116D0E21F5CE200050C84E /* EasySVGExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				92116D0F21F5CE200050C84E /* EasySVGExampleTests.swift */,
+				92116D1121F5CE200050C84E /* Info.plist */,
+			);
+			path = EasySVGExampleTests;
+			sourceTree = "<group>";
+		};
+		92116D1921F5CE200050C84E /* EasySVGExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92116D1A21F5CE200050C84E /* EasySVGExampleUITests.swift */,
+				92116D1C21F5CE200050C84E /* Info.plist */,
+			);
+			path = EasySVGExampleUITests;
+			sourceTree = "<group>";
+		};
+		92116D3321F5D0990050C84E /* Vectors */ = {
+			isa = PBXGroup;
+			children = (
+				92116D2D21F5D0920050C84E /* crown.svg */,
+				92116D2C21F5D0920050C84E /* female.svg */,
+				92116D2B21F5D0920050C84E /* like.svg */,
+				92116D2E21F5D0920050C84E /* message.svg */,
+			);
+			path = Vectors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +275,61 @@
 			productReference = 92116CE121F5C4CB0050C84E /* EasySVGTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		92116CF721F5CE1F0050C84E /* EasySVGExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92116D1D21F5CE200050C84E /* Build configuration list for PBXNativeTarget "EasySVGExample" */;
+			buildPhases = (
+				92116CF421F5CE1F0050C84E /* Sources */,
+				92116CF521F5CE1F0050C84E /* Frameworks */,
+				92116CF621F5CE1F0050C84E /* Resources */,
+				92116D2A21F5D04A0050C84E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92116D2921F5D04A0050C84E /* PBXTargetDependency */,
+			);
+			name = EasySVGExample;
+			productName = EasySVGExample;
+			productReference = 92116CF821F5CE1F0050C84E /* EasySVGExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92116D0A21F5CE200050C84E /* EasySVGExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92116D2021F5CE200050C84E /* Build configuration list for PBXNativeTarget "EasySVGExampleTests" */;
+			buildPhases = (
+				92116D0721F5CE200050C84E /* Sources */,
+				92116D0821F5CE200050C84E /* Frameworks */,
+				92116D0921F5CE200050C84E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92116D0D21F5CE200050C84E /* PBXTargetDependency */,
+			);
+			name = EasySVGExampleTests;
+			productName = EasySVGExampleTests;
+			productReference = 92116D0B21F5CE200050C84E /* EasySVGExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92116D1521F5CE200050C84E /* EasySVGExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92116D2321F5CE200050C84E /* Build configuration list for PBXNativeTarget "EasySVGExampleUITests" */;
+			buildPhases = (
+				92116D1221F5CE200050C84E /* Sources */,
+				92116D1321F5CE200050C84E /* Frameworks */,
+				92116D1421F5CE200050C84E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92116D1821F5CE200050C84E /* PBXTargetDependency */,
+			);
+			name = EasySVGExampleUITests;
+			productName = EasySVGExampleUITests;
+			productReference = 92116D1621F5CE200050C84E /* EasySVGExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -156,6 +347,17 @@
 					92116CE021F5C4CB0050C84E = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					92116CF721F5CE1F0050C84E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					92116D0A21F5CE200050C84E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 92116CF721F5CE1F0050C84E;
+					};
+					92116D1521F5CE200050C84E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 92116CF721F5CE1F0050C84E;
+					};
 				};
 			};
 			buildConfigurationList = 92116CD221F5C4CB0050C84E /* Build configuration list for PBXProject "EasySVG" */;
@@ -164,6 +366,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 92116CCE21F5C4CB0050C84E;
 			productRefGroup = 92116CD921F5C4CB0050C84E /* Products */;
@@ -172,6 +375,9 @@
 			targets = (
 				92116CD721F5C4CB0050C84E /* EasySVG */,
 				92116CE021F5C4CB0050C84E /* EasySVGTests */,
+				92116CF721F5CE1F0050C84E /* EasySVGExample */,
+				92116D0A21F5CE200050C84E /* EasySVGExampleTests */,
+				92116D1521F5CE200050C84E /* EasySVGExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -185,6 +391,34 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		92116CDF21F5C4CB0050C84E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92116CF621F5CE1F0050C84E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92116D3121F5D0920050C84E /* crown.svg in Resources */,
+				92116D0521F5CE200050C84E /* LaunchScreen.storyboard in Resources */,
+				92116D3221F5D0920050C84E /* message.svg in Resources */,
+				92116D0221F5CE200050C84E /* Assets.xcassets in Resources */,
+				92116D3021F5D0920050C84E /* female.svg in Resources */,
+				92116D0021F5CE1F0050C84E /* Main.storyboard in Resources */,
+				92116D2F21F5D0920050C84E /* like.svg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92116D0921F5CE200050C84E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92116D1421F5CE200050C84E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -210,6 +444,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		92116CF421F5CE1F0050C84E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92116CFD21F5CE1F0050C84E /* ViewController.swift in Sources */,
+				92116CFB21F5CE1F0050C84E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92116D0721F5CE200050C84E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92116D1021F5CE200050C84E /* EasySVGExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92116D1221F5CE200050C84E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92116D1B21F5CE200050C84E /* EasySVGExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -218,7 +477,41 @@
 			target = 92116CD721F5C4CB0050C84E /* EasySVG */;
 			targetProxy = 92116CE321F5C4CB0050C84E /* PBXContainerItemProxy */;
 		};
+		92116D0D21F5CE200050C84E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92116CF721F5CE1F0050C84E /* EasySVGExample */;
+			targetProxy = 92116D0C21F5CE200050C84E /* PBXContainerItemProxy */;
+		};
+		92116D1821F5CE200050C84E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92116CF721F5CE1F0050C84E /* EasySVGExample */;
+			targetProxy = 92116D1721F5CE200050C84E /* PBXContainerItemProxy */;
+		};
+		92116D2921F5D04A0050C84E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92116CD721F5C4CB0050C84E /* EasySVG */;
+			targetProxy = 92116D2821F5D04A0050C84E /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92116CFE21F5CE1F0050C84E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92116CFF21F5CE1F0050C84E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92116D0321F5CE200050C84E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92116D0421F5CE200050C84E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		92116CEA21F5C4CB0050C84E /* Debug */ = {
@@ -273,7 +566,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -331,7 +624,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -434,6 +727,128 @@
 			};
 			name = Release;
 		};
+		92116D1E21F5CE200050C84E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5GH44G8KH;
+				INFOPLIST_FILE = EasySVGExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pouyayarandi.EasySVGExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92116D1F21F5CE200050C84E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5GH44G8KH;
+				INFOPLIST_FILE = EasySVGExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pouyayarandi.EasySVGExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92116D2121F5CE200050C84E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5GH44G8KH;
+				INFOPLIST_FILE = EasySVGExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pouyayarandi.EasySVGExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasySVGExample.app/EasySVGExample";
+			};
+			name = Debug;
+		};
+		92116D2221F5CE200050C84E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5GH44G8KH;
+				INFOPLIST_FILE = EasySVGExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pouyayarandi.EasySVGExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasySVGExample.app/EasySVGExample";
+			};
+			name = Release;
+		};
+		92116D2421F5CE200050C84E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5GH44G8KH;
+				INFOPLIST_FILE = EasySVGExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pouyayarandi.EasySVGExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EasySVGExample;
+			};
+			name = Debug;
+		};
+		92116D2521F5CE200050C84E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5GH44G8KH;
+				INFOPLIST_FILE = EasySVGExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pouyayarandi.EasySVGExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EasySVGExample;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -460,6 +875,33 @@
 			buildConfigurations = (
 				92116CF021F5C4CB0050C84E /* Debug */,
 				92116CF121F5C4CB0050C84E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92116D1D21F5CE200050C84E /* Build configuration list for PBXNativeTarget "EasySVGExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92116D1E21F5CE200050C84E /* Debug */,
+				92116D1F21F5CE200050C84E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92116D2021F5CE200050C84E /* Build configuration list for PBXNativeTarget "EasySVGExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92116D2121F5CE200050C84E /* Debug */,
+				92116D2221F5CE200050C84E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92116D2321F5CE200050C84E /* Build configuration list for PBXNativeTarget "EasySVGExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92116D2421F5CE200050C84E /* Debug */,
+				92116D2521F5CE200050C84E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

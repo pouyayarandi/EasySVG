@@ -80,7 +80,7 @@ open class EasySVG {
     }
 }
 
-@IBDesignable class SVGImageView: UIImageView {
+@IBDesignable class EasyImageView: UIImageView {
     @IBInspectable var fileName: String? {
         didSet {
             guard let name = fileName else { return }
