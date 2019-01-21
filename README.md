@@ -8,6 +8,7 @@ add this line to your Podfile:
 pod 'EasySVG'
 ```
 and then run `pod install`
+
 **manually**
 also you can add this framework to your project by downloading the source.
 
