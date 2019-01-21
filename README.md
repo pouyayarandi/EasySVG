@@ -1,3 +1,4 @@
+![](https://img.shields.io/cocoapods/v/EasySVG.svg?style=flat)
 # EasySVG
 **EasySVG** is a framework written in swift for loading vector assets in `UIImageView`. this framework uses `WebKit`'s `WKWebView` for loading vectors.
 
