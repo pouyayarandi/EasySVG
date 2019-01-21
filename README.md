@@ -25,7 +25,7 @@ you can call `setSVG()` method with other arguments:
 * with url of vector file:
 ```swift
 if let url = Bundle.main.url(forResource: "like", withExtension: "svg") {
-	imageView.setSVG(url)
+    imageView.setSVG(url)
 }
 ```
 * with an optional overlay color:
@@ -49,6 +49,9 @@ add `EasyImageView` and `EasySVG` as class and module of your `UIImageView`
 
 then set `EasyImageView` attributes in the attribute inspector tab
 ![attribute inspector tab](http://uupload.ir/files/cpag_screen_shot_2019-01-21_at_2.14.21_pm.png)
+
+## Support us
+support us with click on star icon. thanks ❤️
 
 ## License
 MIT
