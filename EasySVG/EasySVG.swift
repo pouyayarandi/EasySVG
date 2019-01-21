@@ -69,7 +69,10 @@ open class EasySVG {
     /// A boolean determines whether cache is enabled or not, enabling cache can increase performance and disk usage
     public static var allowCache: Bool {
         get { return UserDefaults.standard.bool(forKey: "com.pouyayarandi.EasySVG.allowCache") }
-        set { UserDefaults.standard.set(newValue, forKey: "com.pouyayarandi.EasySVG.allowCache") }
+        set {
+            if !newValue { EasySVG.removeCache() }
+            UserDefaults.standard.set(newValue, forKey: "com.pouyayarandi.EasySVG.allowCache")
+        }
     }
     
     /// Removes vectors that cached
@@ -186,7 +189,10 @@ extension UIImageView: WKNavigationDelegate {
     
     public func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.05) {
-            let scale = webView.frame.width / webView.scrollView.contentSize.width
+            let scale = min (
+                webView.frame.width / webView.scrollView.contentSize.width,
+                webView.frame.height / webView.scrollView.contentSize.height
+            )
             webView.scrollView.transform = CGAffineTransform(scaleX: scale, y: scale)
             if self.alpha == 0 {
                 UIView.animate(withDuration: 0.1, animations: {
